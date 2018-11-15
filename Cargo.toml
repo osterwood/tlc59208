@@ -1,0 +1,12 @@
+[package]
+authors = ["Chris Osterwood <osterwood@capablerobot.com>"]
+name = "tlc59208"
+version = "0.1.0"
+license = "MIT"
+repository = "https://github.com/osterwood/tlc59208"
+keywords = ["embedded-hal-driver", "led"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "A platform agnostic driver to interface with the TLC59208 LED driver"
+
+[dependencies]
+embedded-hal = "0.2.0"
